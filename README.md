@@ -26,15 +26,15 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
-
+Map will return a new array with transformed elements with same amount of data, but forEach will mutate the original array with a callback. Map is immutable and forEach is a mutator method.
 2. Explain the difference between a callback and a higher order function.
-
+A higher order function takes a callback (another function) as a parameter.
 3. What is closure?
-
+Closure is pretty much scope. In a function if you declare a variable it is not available from outter scope, which is essentially what closure is.
 4. Describe the four rules of the 'this' keyword.
-
+Whenever a function is in the global scope, this will be the window object. Whenever a function is called followed by a dot the object before it is this. In a constructor function this refers to the specific instance of the object that is created. When .call or .apply is used, this is explicitly defined.
 5. Why do we need super() in an extended class?
-
+To inherit the parents attributes
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
 ## Instructions
